@@ -1,0 +1,160 @@
+<resources>
+
+
+
+
+
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+<!--        <item name="ActionSheetList">@style/ActionSheetList</item>
+        <item name="ActionSheetItem">@style/ActionSheetItem</item>
+        <item name="ActionSheetCancel">@style/ActionSheetCancel</item>-->
+
+
+
+    </style>
+
+    <style name="AppTheme_Null" parent="Theme.AppCompat.Light.DarkActionBar">
+
+       <!-- <item name="ActionSheetList">@style/ActionSheetList</item>
+        <item name="ActionSheetItem">@style/ActionSheetItem</item>
+        <item name="ActionSheetCancel">@style/ActionSheetCancel</item>-->
+    </style>
+
+    <!-- 分享对话框样式 -->
+    <style name="ShareDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item><!-- 灰度 -->
+    </style>
+
+    <style name="FadeInPopWin">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="@android:windowEnterAnimation">@anim/pop_win_content_fade_in</item>
+        <item name="@android:windowExitAnimation">@anim/pop_win_content_fade_out</item>
+    </style>
+
+    <style name="text_wrap_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="text_match_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="text_wrap_match">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="text_match_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+
+    <style name="ll_wrap_wrap_vertical">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ll_wrap_wrap_horizontal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+
+    <style name="RL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+
+    </style>
+
+
+
+    <style name="ll_match_wrap_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ll_match_wrap_vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ll_wrap_match_horizontal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ll_wrap_match_vertical">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ll_match_match_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ll_match_match_vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <style name="line_height_1px">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/px_1</item>
+    </style>
+
+    <style name="line_height_2px">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/px_2</item>
+    </style>
+
+    <style name="line_width_1px">
+        <item name="android:layout_width">@dimen/px_1</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="line_width_2px">
+        <item name="android:layout_width">@dimen/px_2</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

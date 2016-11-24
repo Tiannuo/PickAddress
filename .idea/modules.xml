@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PickViewDemo.iml" filepath="$PROJECT_DIR$/PickViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library_pickaddress/library_pickaddress.iml" filepath="$PROJECT_DIR$/library_pickaddress/library_pickaddress.iml" />
+    </modules>
+  </component>
+</project>

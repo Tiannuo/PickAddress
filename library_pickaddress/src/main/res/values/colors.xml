@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--主题颜色-->
+    <color name="blue_4B9F00">#4B9F00</color>
+
+    <color name="white_FFFFFF">#FFFFFF</color>
+
+
+    <!--字体颜色-->
+    <color name="white_A5A5A5">#A5A5A5</color>
+
+    <!--标题字体-->
+    <color name="black_44444">#444444</color>
+
+    <!--正文-->
+    <color name="gray_B6B6B6">#B6B6B6</color>
+    <color name="gray_A1A1A1">#A1A1A1</color>
+    <color name="gray_AEAEAE">#AEAEAE</color>
+    <color name="gray_777777">#777777</color>
+    <color name="green_499E02">#499E02</color>
+    <color name="purple_C677DB">#C677DB</color>
+    <!--屏幕背景-->
+    <color name="gray_F1F1F1">#F1F1F1</color>
+
+    <!--按钮-->
+    <color name="gray_B1B1B1">#B1B1B1</color>
+
+
+    <!--分割线-->
+    <color name="gray_DFDFDF">#DFDFDF</color>
+
+    <color name="orange">#F69601</color>
+
+    <color name="gray_DFDFDD">#DFDFDD</color>
+
+    <color name="blue_31B2E2">#31B2E2</color>
+
+    <color name="blue_32B2E3">#32B2E3</color>
+
+    <color name="material_red">#ffF44336</color>
+    <color name="material_green">#ff4CAF50</color>
+    <color name="material_blue">#ff03A9F4</color>
+    <color name="material_yellow">#ffFFEB3B</color>
+
+
+    <!--二维码-->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+
+
+    <color name="comit_nomor">#30D9C4</color>
+    <color name="comit_error">#FF5C5F</color>
+    <color name="tran_gray">#e3A1A1A1</color>
+
+</resources>
