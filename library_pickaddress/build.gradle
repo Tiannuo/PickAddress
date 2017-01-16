@@ -39,3 +39,11 @@ publish {
     desc = 'Oh hi, this is a nice description for a project, right?'//描述，不重要
     website = 'https://github.com/Tiannuo/PickAddress'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
 }
+/*
+*
+*gradlew clean build bintrayUpload
+ -PbintrayUser=tikou
+ -PbintrayKey=b2769aa16c954b991273fd47cf53796088256971
+ -PdryRun=false
+
+* */
