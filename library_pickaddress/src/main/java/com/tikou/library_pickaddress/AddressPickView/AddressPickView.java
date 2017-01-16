@@ -59,9 +59,9 @@ public class AddressPickView extends PopupWindow implements View.OnClickListener
     private AddressTextAdapter cityAdapter;
     private AddressTextAdapter areaAdapter;
 
-    private String strProvince = "安徽";
-    private String strCity = "合肥";
-    private String strArea = "瑶海区";
+    private String strProvince = "上海";
+    private String strCity = "黄浦区";
+    private String strArea = "";
     private OnAddressCListener onAddressCListener;
 
     private int maxsize = 24;
